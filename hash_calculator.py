@@ -87,6 +87,7 @@ def main():
         else:
             print("Choix invalide. Veuillez réessayer.")
 
-
-if __name__ == "__main__":
+try:
     main()
+except KeyboardInterrupt:
+    print("\nLe progamme a été interompu")
