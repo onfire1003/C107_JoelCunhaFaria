@@ -90,4 +90,4 @@ def main():
 try:
     main()
 except KeyboardInterrupt:
-    print("\nLe progamme a été interompu")
+    print("\nLe programme a été interrompu")
