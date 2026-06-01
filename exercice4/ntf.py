@@ -56,7 +56,7 @@ contract = w3.eth.contract(
 )
 
 # URL de votre image
-metadata_url = "https://raw.githubusercontent.com/the-dev-loic/Blockchain-Loic/autre/photo-chat-european.jpg"
+metadata_url = "https://github.com/onfire1003/C107_JoelCunhaFaria/blob/main/exercice4/image.jpg"
 
 # Nonce
 nonce = w3.eth.get_transaction_count(SENDER_ADDRESS)
