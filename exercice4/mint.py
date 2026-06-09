@@ -12,9 +12,9 @@ assert w3.is_connected(), "Échec de la connexion au nœud Ethereum"
 URI =  "https://www.cpnv.me/9c21b7718f9214bce2053b41a48584627cbfabe445d5863d6f322c3b8359fff5/metadata.json"
 
 # Adresse et ABI du contrat déployé
-contract_address = "0x28eE64601A58EDC21BC2Da9e33448c2822371dED"
-deployer_address = "0x13cacedfb1b86e047cb21a5fa1c6d53417c3d69d"
-recipient_address = "0x13cacedfb1b86e047cb21a5fa1c6d53417c3d69d"
+contract_address = "88121512334dc09618de40765a5ad61975cb0244319439533884a440095e2fc6"
+deployer_address = "0x52E890381d7D41D274FA2bA7673122cB5807b6DF"
+recipient_address = "0x52E890381d7D41D274FA2bA7673122cB5807b6DF"
 
 sender_address = w3.to_checksum_address(deployer_address)
 
