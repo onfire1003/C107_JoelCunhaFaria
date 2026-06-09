@@ -11,11 +11,11 @@ PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 CHAIN_ID = 32383
 
 # Adresse du contrat déployé (à remplir après deploy_contract.py)
-CONTRACT_ADDRESS = "REMPLACE_PAR_ADRESSE_DU_CONTRAT"
+CONTRACT_ADDRESS = "0x29e8F2e31805DEF4f5CE435B5cfd4afda37568a3"
 
 # URLs des deux images à minter
-IMAGE_URL_1 = "https://github.com/onfire1003/C107_JoelCunhaFaria/blob/main/exercice5/super.webp"
-IMAGE_URL_2 = "https://github.com/onfire1003/C107_JoelCunhaFaria/blob/main/exercice5/walter.jpg"
+IMAGE_URL_1 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/778f1fe7fa859d2c10d3d86b44d4d39706af5b98/exercice5/super.webp"
+IMAGE_URL_2 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/778f1fe7fa859d2c10d3d86b44d4d39706af5b98/exercice5/walter.jpg"
 
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
@@ -34,7 +34,7 @@ contract = w3.eth.contract(
     abi=abi
 )
 
-# Activer le mint (seulement si tu es le owner)
+# Activer le mint
 print("Activation du mint...")
 nonce = w3.eth.get_transaction_count(sender)
 toggle_txn = contract.functions.toggleIsMintEnabled().build_transaction({
