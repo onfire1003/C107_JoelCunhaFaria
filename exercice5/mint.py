@@ -13,9 +13,9 @@ CHAIN_ID = 32383
 # Adresse du contrat déployé (à remplir après deploy_contract.py)
 CONTRACT_ADDRESS = "0x29e8F2e31805DEF4f5CE435B5cfd4afda37568a3"
 
-# URLs des deux images à minter
-IMAGE_URL_1 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/778f1fe7fa859d2c10d3d86b44d4d39706af5b98/exercice5/super.webp"
-IMAGE_URL_2 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/778f1fe7fa859d2c10d3d86b44d4d39706af5b98/exercice5/walter.jpg"
+# URLs des metadata.json des deux NFTs
+IMAGE_URL_1 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/main/exercice5/metadata_super.json"
+IMAGE_URL_2 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/main/exercice5/metadata_walter.json"
 
 w3 = Web3(Web3.HTTPProvider(RPC_URL))
 
