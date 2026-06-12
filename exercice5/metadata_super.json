@@ -1,23 +1,5 @@
 {
   "name": "CunhaFariaJoel NFT #1 - Super",
   "description": "NFT créé par Joel Cunha Faria dans le cadre du cours C107 - Blockchain CPNV",
-  "image": "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/778f1fe7fa859d2c10d3d86b44d4d39706af5b98/exercice5/super.webp",
-  "attributes": [
-    {
-      "trait_type": "Auteur",
-      "value": "Joel Cunha Faria"
-    },
-    {
-      "trait_type": "Cours",
-      "value": "C107"
-    },
-    {
-      "trait_type": "École",
-      "value": "CPNV"
-    },
-    {
-      "trait_type": "Token",
-      "value": "#1"
-    }
-  ]
+  "image": "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/778f1fe7fa859d2c10d3d86b44d4d39706af5b98/exercice5/super.webp"
 }
