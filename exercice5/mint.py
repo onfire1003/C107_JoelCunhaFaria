@@ -9,7 +9,7 @@ RPC_URL = "http://10.229.43.182:8545"
 SENDER_ADDRESS = "0x52E890381d7D41D274FA2bA7673122cB5807b6DF"
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 CHAIN_ID = 32383
-CONTRACT_ADDRESS = "0x29e8F2e31805DEF4f5CE435B5cfd4afda37568a3"
+CONTRACT_ADDRESS = "0x230DC51031AC30C056855155Bf2BBFA75abEe475"
 
 IMAGE_URL_1 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/main/exercice5/metadata_super.json"
 IMAGE_URL_2 = "https://raw.githubusercontent.com/onfire1003/C107_JoelCunhaFaria/main/exercice5/metadata_walter.json"
